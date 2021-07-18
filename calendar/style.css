@@ -1,22 +1,14 @@
-h1 {
+#header {
+    text-align: center;
+}
+
+#header h1 {
     background-color: chocolate;
 }
 
-p {
-    text-decoration: underline;
+#header p {
+    color: darkorange;
 }
-
-.asdf {
-    color: brown;
-}
-
-.s {
-    font-weight: bold;
-}
-
-/*table, td {*/
-/*    text-align: center;*/
-/*}*/
 
 table th {
     background-color: chocolate;
