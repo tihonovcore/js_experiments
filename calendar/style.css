@@ -1,0 +1,36 @@
+h1 {
+    background-color: chocolate;
+}
+
+p {
+    text-decoration: underline;
+}
+
+.asdf {
+    color: brown;
+}
+
+.s {
+    font-weight: bold;
+}
+
+/*table, td {*/
+/*    text-align: center;*/
+/*}*/
+
+table th {
+    background-color: chocolate;
+    width: 2rem;
+}
+
+#main {
+    text-align: center;
+}
+
+#main, button, input {
+    font-size: 2rem;
+}
+
+#container {
+    display: inline-block;
+}
