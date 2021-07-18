@@ -14,19 +14,31 @@
     </div>
 
     <div id="main">
-<!--        TODO: use table -->
-        <div>
-            <label for="year">Year:</label>
-            <input id="year" type="number" required value="2012">
-        </div>
+        <table>
+            <tr>
+                <td>
+                    <label for="year">Year:</label>
+                </td>
+                <td>
+                    <input id="year" type="number" required value="2012">
+                </td>
+            </tr>
 
-        <div>
-            <label for="month">Month:</label>
-            <input id="month" type="number" required value="9">
-        </div>
-        <div>
-            <button id="enter-date">Enter date</button>
-        </div>
+            <tr>
+                <td>
+                    <label for="month">Month:</label>
+                </td>
+                <td>
+                    <input id="month" type="number" required value="9">
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <button id="enter-date">Enter date</button>
+                </td>
+            </tr>
+        </table>
 
         <div id="container"></div>
     </div>
